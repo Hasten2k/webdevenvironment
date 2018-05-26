@@ -2,15 +2,15 @@
 
 # Tasks to perform
 ## HTML
-[] Compile into dist folder
+- [ ] Compile into dist folder
 
 ## SCSS
-[] Compile to CSS
-[] Concatenate into single file
-[] Autoprefix
-[] Minify
-[] Create Sourcemap
-[] Move to dist folder
+- [ ] Compile to CSS
+- [ ] Concatenate into single file
+- [ ] Autoprefix
+- [ ] Minify
+- [ ] Create Sourcemap
+- [ ] Move to dist folder
 
 ## JavaScript
 ## Build
