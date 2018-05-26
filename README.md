@@ -5,7 +5,7 @@
 - [ ] Compile into dist folder  
 
 ## SCSS
-- [ ] Compile to CSS
+- [X] Compile to CSS
 - [ ] Concatenate into single file
 - [ ] Autoprefix
 - [ ] Minify
