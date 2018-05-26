@@ -2,7 +2,7 @@
 
 # Tasks to perform
 ## HTML
-- [ ] Compile into dist folder
+- [ ] Compile into dist folder  
 
 ## SCSS
 - [ ] Compile to CSS
@@ -14,3 +14,5 @@
 
 ## JavaScript
 ## Build
+## Other
+- [ ] Livereload
