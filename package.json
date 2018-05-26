@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "stylus": "stylus src/stylus --include src/stylus/**/*.styl --out dist/css",
+    "watch:stylus": "stylus -w src/stylus --include src/stylus/**/*.styl --out dist/css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Carl Stålhem <carl@stalhem.se>",
