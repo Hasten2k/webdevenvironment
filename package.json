@@ -4,7 +4,7 @@
   "description": "A template for web development projects",
   "main": "index.js",
   "scripts": {
-    "stylus": "stylus src/stylus --include src/stylus/**/*.styl --out dist/css",
+    "stylus": "stylus src/stylus --include src/stylus/**/*.styl -m --out dist/css",
     "watch:stylus": "stylus -w src/stylus --include src/stylus/**/*.styl --out dist/css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
