@@ -1494,6 +1494,10 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
 
+uglifycss@^0.0.29:
+  version "0.0.29"
+  resolved "https://registry.yarnpkg.com/uglifycss/-/uglifycss-0.0.29.tgz#abe49531155d146e75dd2fdf933d371bc1180054"
+
 union-value@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/union-value/-/union-value-1.0.0.tgz#5c71c34cb5bad5dcebe3ea0cd08207ba5aa1aea4"
