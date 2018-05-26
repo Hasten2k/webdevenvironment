@@ -7,10 +7,10 @@
 ## SCSS
 - [X] Compile to CSS
 - [ ] Concatenate into single file
-- [ ] Autoprefix
+- [X] Autoprefix
 - [ ] Minify
-- [ ] Create Sourcemap
-- [ ] Move to dist folder
+- [X] Create Sourcemap
+- [X] Move to dist folder
 
 ## JavaScript
 ## Build
