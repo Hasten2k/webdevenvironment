@@ -12,6 +12,7 @@
     "postcss": "postcss dist/css/*.css -r -m --use autoprefixer",
 
     "// Watchers": "-------------------------------------------",
+    "watch": "npm-run-all -n -p watch:*",
     "watch:stylus": "npm run stylus -- -w",
     "watch:pug": "npm run pug -- -w",
 
