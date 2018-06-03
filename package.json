@@ -9,7 +9,9 @@
     "// CSS Scripts": "-------------------------------------------",
     "scss": "node-sass --output-style expanded --indent-type spaces --indent-width 2 --output dist/css src/scss",
     "stylus": "stylus src/stylus --include src/stylus/**/*.styl --out dist/css",
-    "postcss": "postcss dist/css/*.css -r -m --use autoprefixer",
+    "postcss:autoprefixer": "postcss dist/css/*.css -r --use autoprefixer",
+    "postcss:cssnano": "postcss dist/css/*.css -r --use cssnano",
+    "postcss": "npm-run-all -s postcss:*",
     "// Linters": "-------------------------------------------",
     "lint:pug": "pug-lint -c .pug-lintrc.json src/pug",
     "// Watchers": "-------------------------------------------",
@@ -23,6 +25,7 @@
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^8.5.1",
+    "cssnano": "^3.10.0",
     "node-sass": "^4.9.0",
     "npm-run-all": "^4.1.3",
     "postcss-cli": "^5.0.0",
