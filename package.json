@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "// HTML Scripts": "-------------------------------------------",
-    "pug": "pug src/pug -o dist/ --path src/pug/**/*.pug --pretty",
+    "pug": "pug src/pug -o dist/ --path src/pug/**/*.pug",
 
     "// Stylus Scripts": "-------------------------------------------",
     "stylus": "stylus src/stylus --include src/stylus/**/*.styl --out dist/css",
