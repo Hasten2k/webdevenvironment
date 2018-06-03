@@ -6,16 +6,13 @@
   "scripts": {
     "// HTML Scripts": "-------------------------------------------",
     "pug": "pug src/pug -o dist/ --path src/pug/**/*.pug",
-
     "// Stylus Scripts": "-------------------------------------------",
     "stylus": "stylus src/stylus --include src/stylus/**/*.styl --out dist/css",
     "postcss": "postcss dist/css/*.css -r -m --use autoprefixer",
-
     "// Watchers": "-------------------------------------------",
     "watch": "npm-run-all -n -p watch:*",
     "watch:stylus": "npm run stylus -- -w",
     "watch:pug": "npm run pug -- -w",
-
     "// Tests": "-------------------------------------------",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,5 +26,8 @@
     "pug-cli": "https://github.com/pugjs/pug-cli#master",
     "stylus": "^0.54.5",
     "uglifycss": "^0.0.29"
+  },
+  "dependencies": {
+    "pug-lint": "^2.5.0"
   }
 }
