@@ -1,0 +1,15 @@
+{
+  "disallowClassAttributeWithStaticValue": true,
+  "disallowClassLiteralsBeforeAttributes": true,
+  "disallowIdAttributeWithStaticValue": true,
+  "disallowIdLiteralsBeforeAttributes": true,
+  "disallowLegacyMixinCall": true,
+  "disallowSpacesInsideAttributeBrackets": true,
+  "disallowTrailingSpaces": true,
+  "requireLineFeedAtFileEnd": true,
+  "requireLowerCaseAttributes": true,
+  "requireLowerCaseTags": true,
+  "requireStrictEqualityOperators": true,
+  "validateDivTags": true,
+  "validateIndentation": 2
+}
