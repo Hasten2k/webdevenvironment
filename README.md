@@ -2,7 +2,7 @@
 
 # Tasks to perform
 ## HTML
-- [ ] Compile into dist folder  
+- [x] Compile into dist folder
 
 ## SCSS
 - [X] Compile to CSS
