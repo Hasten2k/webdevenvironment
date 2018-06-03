@@ -15,8 +15,8 @@
 ## JavaScript
 
 ## Watch for changes
-- [ ] HTML
-- [ ] Stylus
+- [x] HTML
+- [x] Stylus
 - [ ] JavaScripts
 
 ## Build
