@@ -13,6 +13,12 @@
 - [X] Move to dist folder
 
 ## JavaScript
+
+## Watch for changes
+- [ ] HTML
+- [ ] Stylus
+- [ ] JavaScripts
+
 ## Build
 ## Other
 - [ ] Livereload
