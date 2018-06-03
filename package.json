@@ -4,11 +4,18 @@
   "description": "A template for web development projects",
   "main": "index.js",
   "scripts": {
+    // HTML
+    "pug": "pug src/pug -o dist/ --path src/pug/**/*.pug --pretty",
+
+    // CSS and Stylus
     "stylus": "stylus src/stylus --include src/stylus/**/*.styl --out dist/css",
     "postcss": "postcss dist/css/*.css -r -m --use autoprefixer",
-    "pug": "pug src/pug -o dist/ --path src/pug/**/*.pug --pretty",
+
+    // Watchers
     "watch:stylus": "npm run stylus -- -w",
     "watch:pug": "npm run pug -- -w",
+
+    // Tests
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Carl Stålhem <carl@stalhem.se>",
