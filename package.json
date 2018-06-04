@@ -6,6 +6,7 @@
   "scripts": {
     "// HTML Scripts": "-------------------------------------------",
     "pug": "pug src/pug -o dist/ --path src/pug/**/*.pug",
+    "prepug": "npm run lint:pug",
     "// CSS Scripts": "-------------------------------------------",
     "scss": "node-sass --output-style expanded --indent-type spaces --indent-width 2 --output dist/css src/scss",
     "postscss": "npm run postcss:autoprefixer",
