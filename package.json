@@ -33,10 +33,8 @@
     "postcss-cli": "^5.0.0",
     "pug": "^2.0.3",
     "pug-cli": "https://github.com/pugjs/pug-cli#master",
+    "pug-lint": "^2.5.0",
     "stylus": "^0.54.5",
     "uglifycss": "^0.0.29"
-  },
-  "dependencies": {
-    "pug-lint": "^2.5.0",
   }
 }
