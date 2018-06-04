@@ -5,10 +5,10 @@
 - [x] Compile into dist folder
 
 ## SCSS
-- [X] Compile to CSS
 - [ ] Concatenate into single file
+- [X] Compile to CSS
 - [X] Autoprefix
-- [ ] Minify
+- [x] Minify
 - [X] Create Sourcemap
 - [X] Move to dist folder
 
