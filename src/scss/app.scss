@@ -1,9 +1,28 @@
+$black: #000;
+$blue: #00f;
+$gray: #333;
+$white: #fff;
+
 body {
-  color: #fff;
-  background: #333;
   display: flex;
+  margin: 0;
+  border: 0;
+  background: blue;
+  color: $white;
 }
 
 ::placeholder {
-  color: blue;
+  color: $blue;
+}
+
+h1 {
+  border: 10px solid $black;
+
+  &.test {
+    color: $black;
+
+    &.newtest {
+      color: $white;
+    }
+  }
 }
